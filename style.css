@@ -23,18 +23,18 @@ header {
 }
 /* ----------/app header---------- */
 
-
 /* ----------container---------- */
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 2px auto;
     background-color: white;
 }
 /* ----------/container---------- */
 
 /* ----------barra comandi---------- */
 .command-bar {
-    padding: 10px 40px;;
+    padding: 10px 40px;
+    margin-top: 40px;
 }
 .button-10 {
     display: inline-block;
@@ -43,7 +43,7 @@ header {
     border: none;
     color: #fff;
     background-color: #14aaf5;
-  }  
+}  
   .button-20 {
     display: inline-block;
     padding: 6px 14px;
@@ -51,5 +51,53 @@ header {
     border: 1px solid #c4cbd0;
     color: #c4cbd0;
     background-color: white;
-  }
+}
 /* ----------/barra comandi---------- */
+
+/* ----------tasks---------- */
+.tasks {
+    padding: 40px;
+}
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 15px;
+    font-size: 10px;
+}
+.circle-done {
+    color: #2cc6ab;
+    border-color: #2cc6ab;
+}
+.circle-danger {
+    color: #ff1b1b;
+    border-color: #ff1b1b;
+}
+.tag {
+    display: inline-block;
+    background-color: red;
+    padding: 6px 10px;
+    color: #ffffff;
+    border-radius: 16px;
+}
+.tag-blue {
+    background: #14aaf5;
+}
+.tag-aquamarine {
+    background: #2cc6ab;
+}
+.tag-purple {
+    background: #ab5de6;
+}
+.tag-orange {
+    background: #ff9b00;
+}
+.tag-pink {
+    background: #ec4a9d;
+}
+.tag-green {
+    background: #a3d116
+}
