@@ -3,15 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #f6f8f9;
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-/* app header */
+/* ----------app header---------- */
 
 header {
     background-color: #ffffff;
@@ -24,10 +21,35 @@ header {
 .app-logo {
     vertical-align: middle;
 }
+/* ----------/app header---------- */
 
-/* container */
+
+/* ----------container---------- */
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    background-color: yellow;
+    margin: 40px auto;
+    background-color: white;
 }
+/* ----------/container---------- */
+
+/* ----------barra comandi---------- */
+.command-bar {
+    padding: 10px 40px;;
+}
+.button-10 {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background-color: #14aaf5;
+  }  
+  .button-20 {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid #c4cbd0;
+    color: #c4cbd0;
+    background-color: white;
+  }
+/* ----------/barra comandi---------- */
