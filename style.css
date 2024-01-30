@@ -30,7 +30,9 @@ header {
     background-color: white;
 }
 /* ----------/container---------- */
-
+main {
+    margin-bottom: 25px;
+}
 /* ----------barra comandi---------- */
 .command-bar {
     padding: 10px 40px;
@@ -79,9 +81,12 @@ header {
 .tag {
     display: inline-block;
     background-color: red;
+    height: 30px;
     padding: 6px 10px;
     color: #ffffff;
     border-radius: 16px;
+    font-size: 11px;
+    line-height: 20px;
 }
 .tag-blue {
     background: #14aaf5;
@@ -101,3 +106,11 @@ header {
 .tag-green {
     background: #a3d116
 }
+.task {
+    font-size: 20px;
+}
+span {
+    margin: 5px;
+    line-height: 40px;
+}
+/* ----------/tasks---------- */
