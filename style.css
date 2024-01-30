@@ -9,6 +9,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 /* app header */
 
 header {
@@ -21,4 +23,11 @@ header {
 }
 .app-logo {
     vertical-align: middle;
+}
+
+/* container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: yellow;
 }
