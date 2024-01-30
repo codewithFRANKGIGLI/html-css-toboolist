@@ -1,93 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
-<!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<!-- /Google Fonts -->
-
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-    <!-- intestazione app -->
-    <header>
-        <img class="app-logo" src="img/Logo.png" alt="Boolean-logo">
-        <h1 class="app-title">Toboolist</h1>
-    </header>
-    <!-- /intestazione app -->
-    <!-- container principale -->
-    <main>
-        <div class="container bar">
-            <!-- barra comandi -->
-            <div class="command-bar">
-                <button class="button-10">Add Task</button>
-                <button class="button-20">Add Section</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- /Google Fonts -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- intestazione app -->
+        <header>
+            <img class="app-logo" src="img/Logo.png" alt="Boolean-logo">
+            <h1 class="app-title">Toboolist</h1>
+        </header>
+        <!-- /intestazione app -->
+        <!-- container principale -->
+        <main>
+            <div class="container bar">
+                <!-- barra comandi -->
+                <div class="command-bar">
+                    <button class="button-10">Add Task</button>
+                    <button class="button-20">Add Section</button>
+                </div>
             </div>
-        </div>
-            <!-- /barra comandi -->
-            <!-- Tasks -->
-        <div class="container tasks">
-            <div class="title">
-                <h2>&#128899; New Task</h2>
+                <!-- /barra comandi -->
+                <!-- Tasks -->
+            <div class="container tasks">
+                <div class="title">
+                    <h2>&#128899; New Task</h2>
+                </div>
+                <div class="task">
+                    <div class="circle circle-done">&check;</div>
+                    <span>Quarterly Newsletter</span>
+                    <span class="tag tag-blue">Editorial</span>                
+                </div>
+                <div class="title">
+                    <h2>&#128899; Today</h2>
+                </div>
+                <div class="task">
+                    <div class="circle circle-done">&check;</div>
+                    <span>Recruiting blog post</span>
+                    <span class="tag tag-blue">Editorial</span>
+                </div>
+                <div class="task">
+                    <div class="circle circle-done">&check;</div>
+                    <span>Mobile app launch</span>
+                    <span class="tag tag-purple">Q1 Goals</span>
+                </div>
+                <div class="task">
+                    <div class="circle circle-danger">&cross;</div>
+                    <span>Interview John H.</span>
+                    <span class="tag tag-aquamarine">Recruiting</span>
+                </div>
+                <div class="task">
+                    <div class="circle circle-done">&check;</div>
+                    <span>Summit update to mobile storefronts</span>
+                    <span class="tag tag-orange">Mobile</span>
+                </div>
+                <div class="title">
+                    <h2>&#128899; Upcoming</h2>
+                </div>
+                <div class="task">
+                    <div class="circle circle-danger">&cross;</div>
+                    <span>Schedule meeting with Alex</span>
+                </div>
+                <div class="task">
+                    <div class="circle circle-done">&check;</div>
+                    <span>Homepage refresh</span>
+                    <span class="tag tag-purple">Editorial</span>
+                </div>
+                <div class="task">
+                    <div class="circle circle-done">&check;</div>
+                    <span>Onboard new Sales team members</span>
+                    <span class="tag tag-green">Editorial</span>
+                </div>
+                <div class="task">
+                    <div class="circle circle-done">&check;</div>
+                    <span>Review editorial calendar</span>
+                    <span class="tag tag-blue">Editorial</span>
+                </div>
             </div>
-            <div class="task">
-                <div class="circle circle-done">&check;</div>
-                <span>Quarterly Newsletter</span>
-                <span class="tag tag-blue">Editorial</span>                
-            </div>
-            <div class="title">
-                <h2>&#128899; Today</h2>
-            </div>
-            <div class="task">
-                <div class="circle circle-done">&check;</div>
-                <span>Recruiting blog post</span>
-                <span class="tag tag-blue">Editorial</span>
-            </div>
-            <div class="task">
-                <div class="circle circle-done">&check;</div>
-                <span>Mobile app launch</span>
-                <span class="tag tag-purple">Q1 Goals</span>
-            </div>
-            <div class="task">
-                <div class="circle circle-danger">&cross;</div>
-                <span>Interview John H.</span>
-                <span class="tag tag-aquamarine">Recruiting</span>
-            </div>
-            <div class="task">
-                <div class="circle circle-done">&check;</div>
-                <span>Summit update to mobile storefronts</span>
-                <span class="tag tag-orange">Mobile</span>
-            </div>
-            <div class="title">
-                <h2>&#128899; Upcoming</h2>
-            </div>
-            <div class="task">
-                <div class="circle circle-danger">&cross;</div>
-                <span>Schedule meeting with Alex</span>
-            </div>
-            <div class="task">
-                <div class="circle circle-done">&check;</div>
-                <span>Homepage refresh</span>
-                <span class="tag tag-purple">Editorial</span>
-            </div>
-            <div class="task">
-                <div class="circle circle-done">&check;</div>
-                <span>Onboard new Sales team members</span>
-                <span class="tag tag-green">Editorial</span>
-            </div>
-            <div class="task">
-                <div class="circle circle-done">&check;</div>
-                <span>Review editorial calendar</span>
-                <span class="tag tag-blue">Editorial</span>
-            </div>
-        </div>
-            <!-- /Tasks -->
-        </div>
-    </main>
-</body>
+                <!-- /Tasks -->
+        </main>
+    </body>
 </html>
