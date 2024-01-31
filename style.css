@@ -13,6 +13,7 @@ body {
 header {
     background-color: #ffffff;
     padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .app-title {
     display: inline-block;
@@ -28,6 +29,7 @@ header {
     max-width: 800px;
     margin: 2px auto;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* ----------/container---------- */
 main {
